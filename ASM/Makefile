@@ -43,9 +43,10 @@ $(OUT): %: %.o
 
 clean:
 	rm -rf $(OBJ)
+	rm -f Grace_kid.s
+	rm -rf Sully_*
 
 fclean: clean
 	rm -f $(OUT)
-	rm -f Grace_kid.s
 
 re: fclean all
