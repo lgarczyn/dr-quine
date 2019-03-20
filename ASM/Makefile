@@ -12,7 +12,7 @@
 
 NAME = QUINE_ASM
 
-SRC = Colleen.s Grace.s 
+SRC = Colleen.s Grace.s Sully.s
 
 OUT = $(basename $(SRC))
 
