@@ -2,12 +2,12 @@ function main()
 {
     var i = 5;
     var m = main.toString();
+    if (i <= 0)
+        return;
     //contradictory rules with stupid correction
     if (require('fs').existsSync('Sully_5.js')) {
         m = m.replace(i, i - 1);
         i--;
-        if (i < 0)
-            return;
     }
     
     var fs = require('fs');
