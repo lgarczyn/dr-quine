@@ -2,4 +2,4 @@
 
 42 project designed to teach the concepts of Quines in various languages
 
-![Subject in French](dr-quine.fr.pdf)
+![Subject in French](dr_quine.fr.pdf)
